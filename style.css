@@ -49,7 +49,7 @@ a:link {
   border-radius: 8px;
   width: 120px;
   height: 30px;
-  font-size: 18px;
+  font-size: 16px;
   text-align: center;
   font-weight: 700;
 }
@@ -89,4 +89,32 @@ a:link {
 .quote-author {
   font-size: 20px;
   font-weight: 500;
+}
+
+.action {
+  background-color: #3882f6;
+}
+
+.action-head {
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.action-body{
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.action-button {
+  background-color: #3882f6;
+  border-color: #f9faf8;
+  border-style: solid;
+  color: #f9faf8;
+  border-radius: 8px;
+  width: 120px;
+  height: 30px;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 700;
 }
