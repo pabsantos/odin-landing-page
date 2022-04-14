@@ -19,6 +19,17 @@ a:link {
   background-color: #1f2937;
 }
 
+.hero-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-links {
+  display: flex;
+  gap: 16px;
+  padding: 8px;
+}
+
 .hero-title {
   font-size: 48px;
   color: #f9faf8;
@@ -29,12 +40,6 @@ a:link {
   font-size: 24px;
   color: #f9faf8;
   font-weight: 600;
-}
-
-.footer {
-  background-color: #1f2937;
-  color: #e5e7eb;
-  font-size: 14px;
 }
 
 .hero-secondary-text {
@@ -117,4 +122,10 @@ a:link {
   font-size: 16px;
   text-align: center;
   font-weight: 700;
+}
+
+.footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  font-size: 14px;
 }
