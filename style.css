@@ -33,6 +33,8 @@ a:link {
 
 .footer {
   background-color: #1f2937;
+  color: #e5e7eb;
+  font-size: 14px;
 }
 
 .hero-secondary-text {
@@ -72,4 +74,19 @@ a:link {
   height: 100px;
   width: 100px;
   border-radius: 15px;
+}
+
+.quote {
+  background-color: #e5e7eb;
+}
+
+.quote-text {
+  font-style: italic;
+  font-weight: 200;
+  font-size: 36px;
+}
+
+.quote-author {
+  font-size: 20px;
+  font-weight: 500;
 }
