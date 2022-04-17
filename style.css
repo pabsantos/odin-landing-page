@@ -126,6 +126,7 @@ a:link {
   width: 170px;
   border-radius: 15px;
   align-items: center;
+  margin-bottom: 10px;
 }
 
 .quote {
@@ -142,6 +143,7 @@ a:link {
   font-weight: 200;
   font-size: 36px;
   padding-bottom: 12px;
+  max-width: 900px;
 }
 
 .quote-author {
@@ -152,6 +154,19 @@ a:link {
 
 .action {
   background-color: #3882f6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  border: 140px solid white;
+  border-radius: 150px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.action-text {
+  display: flex;
+  flex-direction: column;
 }
 
 .action-head {
