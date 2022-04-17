@@ -158,10 +158,13 @@ a:link {
   justify-content: space-between;
   align-items: center;
   padding: 50px;
-  border: 140px solid white;
-  border-radius: 150px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 100px;
+  margin-bottom: 100px;
   padding-left: 100px;
   padding-right: 100px;
+  border-radius: 10px;
 }
 
 .action-text {
@@ -197,4 +200,6 @@ a:link {
   background-color: #1f2937;
   color: #e5e7eb;
   font-size: 14px;
+  text-align: center;
+  padding: 26px;
 }
